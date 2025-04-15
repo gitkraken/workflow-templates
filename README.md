@@ -61,6 +61,8 @@ One more thing to consider is adding the relevant ID from your issue tracking or
 
 A great [GitHub Gist](https://gist.github.com/janderssonse/1e65139ebcfb1a1bc6f04e877c2c60f2) exists that covers more of this information. However, you might consider using a more formal specification called [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/).
 
+One more thing you might consider is using a tool to generate commit messages. AI/LLMs tend to be very good at that when the content fits within their context windows. We may be a bit biased but you can use [GitKraken's AI functionality](https://www.gitkraken.com/solutions/gitkraken-ai) to help.
+
 ### Conventional Commits
 
 This specification originates from the AngularJS team. It uses a set of specific keywords to signal the scope of a commit within the first word. Then, the rest of the commit adds context and detail. Here are some examples:
@@ -82,13 +84,3 @@ GitHub has some [basic documentation](https://docs.github.com/en/communities/usi
 While that documentation page shows how to create a PR template, it doesn't go very deep into what kinds of templates you might want to make. For that, there is a very good [collection of example templates](https://github.com/stevemao/github-issue-templates/).
 
 Some of our favorites have been copied to this repo and can be found in the [.github/PULL_REQUEST_TEMPLATES](./.github/PULL_REQUEST_TEMPLATES) directory of this repo. Adding things like the [checklist template](./.github/PULL_REQUEST_TEMPLATES/checklist.md) to your repo can ensure that contributors are aggreeing to your contribution guidelines as well as make sure they aren't forgettting key bits of context.
-
-## License
-
-Copyright 2025 GitKraken
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
